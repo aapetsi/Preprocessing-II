@@ -1,9 +1,22 @@
 // Mixins in here
-.buttonStyling (@width; @style; @color) {
-  width: 100%;
-  color: @white;
-  background-color: @eastern-blue;
+// .buttonStyling (@width; @style; @color) {
+//   width: 100%;
+//   color: @white;
+//   background-color: @eastern-blue;
+//   text-align: center;
+//   border-radius: 20px;
+//   border: @width @style @color;
+// }
+
+.buttonStyling(@backgroundColor; @fontColor) {
   text-align: center;
-  border-radius: 20px;
-  border: @width @style @color;
+  background: darken(@backgroundColor, 10%);
+  color: @fontColor;
+  border-radius: 10px;
+  border: none solid red;
+  height: 40px;
+  text-transform: capitalize;
+  // padding-top: 15px;
+  padding-top: 12px;
+  font-size: 1.5rem;
 }
