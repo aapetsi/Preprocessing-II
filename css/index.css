@@ -176,6 +176,12 @@ img {
   padding-bottom: 20px;
   padding-top: 10px;
 }
+@media (max-width: 500px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .nav h2 {
   display: flex;
   align-content: center;
