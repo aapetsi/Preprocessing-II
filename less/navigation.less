@@ -2,23 +2,27 @@
 .nav {
   display: flex;
   align-content: center;
+  align-items: center;
   justify-content: space-between;
-  // background: red;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+  h2 {
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+  }
 
   .nav-right {
-    // float: right;
     display: flex;
     justify-content: space-between;
-    // align-content: center;
     align-items: center;
-    width: 200px;
-    // border: 1px solid @shark;
+    width: 300px;
 
     .nav-item {
       text-decoration: none;
       color: @shark;
-      // width: 600px;
-      // border: 1px solid black;
+      font-size: 1.5rem;
     }
   }
 
