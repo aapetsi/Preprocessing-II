@@ -1,1 +1,34 @@
 // Navigation Styles here
+.nav {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+  @media @mobileDeviceView {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+  }
+
+  .nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+
+    .nav-item {
+      text-decoration: none;
+      color: @shark;
+      font-size: 1.5rem;
+    }
+  }
+
+}
